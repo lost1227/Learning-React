@@ -1,0 +1,64 @@
+@font-face{
+	font-family: "StormFaze";
+	src: url('stormfaze.ttf');
+}
+@font-face {
+  font-family: "Libre Franklin";
+  src: url('LibreFranklin.ttf');
+}
+
+.App {
+  text-align: center;
+  font-family: "Libre Franklin", "Helvetica Nue", helvetica, sans-serif;
+}
+
+.parallax {
+
+  position: relative;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 100%;
+}
+
+div.infodiv {
+  padding: 1em 0em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
+  background: white;
+}
+
+div.window {
+  height: 100vh;
+  position: relative;
+}
+
+h1 {
+  font-family: StormFaze, Helvetica, sans-serif;
+  margin: 0 0 0 0;
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.2em;
+  margin: 0 0 0 0;
+  font-family: "Libre Franklin", "Helvetica Nue", helvetica;
+}
+
+h3 {
+  font-size: 2em;
+  margin: 1em 0 0.5em 0;
+}
+
+p {
+  text-align: left;
+  width: 80%;
+  padding: 0 0 0 0;
+  margin: auto;
+  line-height: 1.3em;
+}
