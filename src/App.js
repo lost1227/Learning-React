@@ -3,6 +3,14 @@ import teamphoto from './photos/team.JPG';
 import robotphoto from './photos/robot.JPG';
 import hangingbot from './photos/hangingbot.JPG';
 import firstlogo from './photos/FIRST_logo.png';
+import sponsors from './photos/sponsors.JPG';
+
+import boeing from './sponsorlogos/boeing.png';
+import buildit from './sponsorlogos/buildit.png';
+import lbusd from './sponsorlogos/lbusd.png';
+import sscience from './sponsorlogos/shared-science.png';
+import zing from './sponsorlogos/zing.png';
+
 import './App.css';
 
 class Parallax extends Component {
@@ -12,6 +20,9 @@ class Parallax extends Component {
     this.style = {
       backgroundImage: 'url('+props.src+')'
      };
+     if("minheight" in props) {
+       this.style["min-height"] = props.minheight;
+     }
   }
 
   render() {
@@ -67,7 +78,7 @@ class App extends Component {
           </Info>
         </View>
         <View>
-          <Parallax src={hangingbot}/>
+          <Parallax src={hangingbot} />
           <Info>
             <img height="150" src={firstlogo} alt="FIRST Robotics Competition"/>
             <h3 style={{margin: "0.5em 0em"}}>FIRST Robotics Competition</h3>
@@ -77,6 +88,20 @@ class App extends Component {
               The robots vary in size each year, with some weighing up to 120 pounds, and they compete on a field approximately the size of a tennis court.
               Competitions are held all over the world, and they are free to the public to attend.
             </p>
+          </Info>
+        </View>
+        <View>
+          <Parallax src={sponsors} />
+          <Info>
+            <h3>Sponsors</h3>
+            <p style={{textAlign: "center"}}>We are very greatful to our sponsors, without whom this team would not exist.</p>
+            <div id="sponsors">
+              <img className="sponsor" alt="LBUSD" src={lbusd} />
+              <img className="sponsor" alt="Zing Apps" src={zing} />
+              <img className="sponsor" alt="Build It Workspace" src={buildit} />
+              <img className="sponsor" alt="Shared Science" src={sscience} />
+              <img className="sponsor" alt="Boeing" src={boeing} />
+            </div>
           </Info>
         </View>
       </div>

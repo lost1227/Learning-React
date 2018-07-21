@@ -24,6 +24,15 @@
   height: 100%;
 }
 
+@media only screen and (max-device-width: 1366px) {
+	.parallax {
+		background-attachment: scroll;
+	}
+	div.window {
+		min-height: 75em;
+	}
+}
+
 div.infodiv {
   padding: 1em 0em;
   position: absolute;
@@ -36,6 +45,15 @@ div.infodiv {
 div.window {
   height: 100vh;
   position: relative;
+}
+
+img.sponsor {
+	width: 10em;
+}
+
+#sponsors {
+	margin: auto;
+	padding: 0.25em 0em;
 }
 
 h1 {
