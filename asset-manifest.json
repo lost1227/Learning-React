@@ -1,12 +1,18 @@
 {
-  "main.css": "static/css/main.7ddf86c0.css",
-  "main.css.map": "static/css/main.7ddf86c0.css.map",
-  "main.js": "static/js/main.1c01e5ba.js",
-  "main.js.map": "static/js/main.1c01e5ba.js.map",
+  "main.css": "static/css/main.6c23d177.css",
+  "main.css.map": "static/css/main.6c23d177.css.map",
+  "main.js": "static/js/main.c02caae4.js",
+  "main.js.map": "static/js/main.c02caae4.js.map",
   "static\\media\\FIRST_logo.png": "static/media/FIRST_logo.1120548f.png",
   "static\\media\\LibreFranklin.ttf": "static/media/LibreFranklin.30ee6085.ttf",
+  "static\\media\\boeing.png": "static/media/boeing.2c295802.png",
+  "static\\media\\buildit.png": "static/media/buildit.a68e449d.png",
   "static\\media\\hangingbot.JPG": "static/media/hangingbot.141a0dec.JPG",
+  "static\\media\\lbusd.png": "static/media/lbusd.7452f1d4.png",
   "static\\media\\robot.JPG": "static/media/robot.35ebbac4.JPG",
+  "static\\media\\shared-science.png": "static/media/shared-science.d3341bc5.png",
+  "static\\media\\sponsors.JPG": "static/media/sponsors.ebe8a89a.JPG",
   "static\\media\\stormfaze.ttf": "static/media/stormfaze.ea9a35cc.ttf",
-  "static\\media\\team.JPG": "static/media/team.ffcf85c5.JPG"
+  "static\\media\\team.JPG": "static/media/team.ffcf85c5.JPG",
+  "static\\media\\zing.png": "static/media/zing.96b4c9a5.png"
 }
